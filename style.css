@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666 ;
+}
+.text-bold{
+    font-weight: bold;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.right-menu ul li{
+    display: inline-block;
+    margin-right: 7px;
+}
+
