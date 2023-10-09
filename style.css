@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 ul{
@@ -32,3 +33,20 @@ a{
     margin-right: 7px;
 }
 
+
+/**/
+
+.footer{
+    background-color: #008ECC;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left-content, .middle-content{
+    margin-right: 30px;
+}
