@@ -36,6 +36,13 @@ i{
     margin-right: 7px;
 }
 
+.break-line1{
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
+    background-color: #EDEDED;
+}
+
 /*****************------------main menu----------------***************/
 
 .main-menu{
@@ -79,10 +86,6 @@ i{
 }
 
 
-
-
-
-
 /*-------------daily essential------------------*/
 /*-------------daily essential------------------*/
 /*-------------daily essential------------------*/
@@ -91,9 +94,22 @@ i{
     display: flex;
     justify-content: space-between;
 }
+.heading h3{
+    position: relative;
+}
+.heading h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #008ECC;
+    bottom: 0;
+    top: 135%;
+    position: absolute;
+}
 .shop-content{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .shop-item{
     flex-grow: 1;
@@ -106,6 +122,12 @@ i{
     border-radius: 16px;
     background: var(--Backgorund-1, #F5F5F5);
 }
+.item-img img{
+    width: 100px;
+    height: 100px;
+}
+
+
 .shop-item{
     text-align: center;
 }
