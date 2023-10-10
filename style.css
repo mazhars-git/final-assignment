@@ -40,20 +40,21 @@ a{
     background-color: #008ECC;
     color: #fff;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .footer .container{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 20px;
 }
 .footer .container h6{
     font-size: 20px;
+    font-weight: 400;
     margin: 10px 0;
 }
 .footer .container h3{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 10px;
     position: relative;
 }
@@ -86,5 +87,17 @@ a{
 }
 .footer ul li a{
     color: #fff;
+}
+
+.footer .break-line{
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    background-color: #05ABF3;
+}
+
+.footer .copy-right{
+    text-align: center;
+    padding: 25px 0;
 }
 
