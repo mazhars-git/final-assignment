@@ -23,7 +23,7 @@ i{
 }
 .container{
     max-width: 90%;
-    margin: auto;
+    margin: 15px auto;
     padding-top: 10px;
 }
 
@@ -60,13 +60,68 @@ i{
     display: inline-block;
     margin-right: 10px;
     border-radius: 25px;
-    padding: 8px 12px;
+    padding: 8px 11px;
     background-color: #F5F5F5;
     margin-bottom: 10px;
 }
 
+/*-------------- slider section ------------------------------*/
+.slider-section{
+    background-color: #212844;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.slider-section .slider-box{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
+
+
+
+
+/*-------------daily essential------------------*/
+/*-------------daily essential------------------*/
+/*-------------daily essential------------------*/
+
+.daily-shopping .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.shop-item{
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.shop-item .item-img{
+    background-color: #666;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 16px;
+    background: var(--Backgorund-1, #F5F5F5);
+}
+.shop-item{
+    text-align: center;
+}
+.shop-item p{
+    font-size: 16px;
+    color: #666;
+}
+.shop-item h5{
+    font-size: 20px;
+    color: #222;
+    font-weight: 700;
+}
+
+
+/*-------------footer------------------*/
+/*-------------footer------------------*/
 /*-------------footer------------------*/
 
 .footer{
